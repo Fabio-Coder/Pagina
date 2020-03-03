@@ -26,12 +26,15 @@ header{
     color: white;
     font-size: 18px;
     line-height: 28px;
+    padding: 10px;
     margin: 10px;
     text-decoration: none;
 }
 .links a:hover{
-    color: var(--color-green);
-    transition: color 200ms;
+    color: black;
+    background-color: whitesmoke;
+    transition: color 300ms;
+    transition: linear 300ms;
 }
 #wrapper{
     text-align: center;
